@@ -1,10 +1,13 @@
 /* Body styling */
 body {
-    background: #713e94;
-    color: #fff;
-    font-family: Helvetica, Arial;
-    font-size: 27px;
-    font-weight: 300;
+    background-image: url("images/paper2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background: #713e94;*/
+    color: black;
+    /*font-family: Helvetica, Arial;*/
+    /*font-size: 27px;*/
+    /*font-weight: 300;*/
     line-height: 1.65em;
     margin: 0 auto;
     max-width: 960px;
@@ -14,14 +17,17 @@ body {
 
 /* Heading Styles */
 h1 {
-    font-size: 60px;
-    color: #fff;
+    font-family: "DK Cul De Sac";
+    font-size: 200px;
+    color: black;
     text-align: center;
 }
 
 
 /* Game Directions */
 .description {
+    font-size: 40px;
+    font-family: "DK Keswick";
     text-align: center;
     margin: 80px auto 40px;
 }
@@ -30,16 +36,17 @@ h1 {
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
     background: transparent;
-    border: 3px solid #fff;
-    border-radius: 6px;
-    color: #fff;
+    border: none;
+    /*border-radius: 6px;*/
+    color: black;
     cursor: pointer;
     display: block;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin: 0 auto 60px;
     padding: 1em 2em;
     text-align: center;
+    font-family: "DK Keswick";
 }
 
 .bucket {
@@ -63,15 +70,17 @@ h1 {
 }
 
 .choice-bucket input {
-    border: 0;
+    border: 1px solid black;
     border-radius: 6px;
-    color: #713e94;
+    background: transparent;
+    color: black;
     font-size: 18px;
     margin: 15px 4%;
     outline: 0;
     padding: 16px 0;
     text-indent: 20px;
     width: 92%;
+    font-family: "DK Keswick";
 }
 
 .choice-bucket label ~ input {
@@ -79,10 +88,11 @@ h1 {
 }
 
 .highlight {
-    font-size: 18px;
     line-height: 24px;
     margin-left: 30px;
     opacity: .8;
+    font-family: "DK Keswick";
+    font-size: 25px;
 }
 
 
