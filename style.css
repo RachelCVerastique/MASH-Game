@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /*background: #713e94;*/
-    color: black;
+    color: rgb(60,61,71);
     /*font-family: Helvetica, Arial;*/
     /*font-size: 27px;*/
     /*font-weight: 300;*/
@@ -18,18 +18,21 @@ body {
 /* Heading Styles */
 h1 {
     font-family: "DK Cul De Sac";
-    font-size: 200px;
-    color: black;
+    font-size: 250px;
+    color: rgb(60,61,71);
     text-align: center;
+    font-weight: normal;
+   margin-top: 110px;
 }
 
 
 /* Game Directions */
 .description {
-    font-size: 40px;
-    font-family: "DK Keswick";
+    font-size: 50px;
+    font-family: "pencilpete";
     text-align: center;
     margin: 80px auto 40px;
+    color: rgb(60,61,71);
 }
 
 
@@ -38,15 +41,15 @@ h1 {
     background: transparent;
     border: none;
     /*border-radius: 6px;*/
-    color: black;
+    color: rgb(60,61,71);
     cursor: pointer;
     display: block;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     margin: 0 auto 60px;
     padding: 1em 2em;
     text-align: center;
-    font-family: "DK Keswick";
+    font-family: "pencilPete FONT";
 }
 
 .bucket {
@@ -73,14 +76,14 @@ h1 {
     border: 1px solid black;
     border-radius: 6px;
     background: transparent;
-    color: black;
-    font-size: 18px;
+    color: rgb(60,61,71);
+    font-size: 25px;
     margin: 15px 4%;
     outline: 0;
     padding: 16px 0;
     text-indent: 20px;
     width: 92%;
-    font-family: "DK Keswick";
+    font-family: "pencilPete FONT";
 }
 
 .choice-bucket label ~ input {
@@ -88,11 +91,11 @@ h1 {
 }
 
 .highlight {
-    line-height: 24px;
+    line-height: 40px;
     margin-left: 30px;
     opacity: .8;
-    font-family: "DK Keswick";
-    font-size: 25px;
+    font-family: "pencilPete FONT";
+    font-size: 35px;
 }
 
 
@@ -100,11 +103,11 @@ h1 {
 /* Answer Div */
 #answers {
     margin: 60px 0;
-    background: #fff;
+    /*background: #fff;*/
     border-radius: 6px;
-    color: black;
-    font-family: "DK Keswick";
-    font-size: 25px;
+    color: rgb(60,61,71);
+    font-family: "pencilPete FONT";
+    font-size: 35px;
     transition: 1s linear;
 }
 
@@ -127,4 +130,10 @@ h1 {
 .show {
     opacity: 1;
     height: 100%;
+}
+
+/*fonts*/
+@font-face {
+    font-family: "pencilpete";
+    src: url('fonts/PencilpeteFont-2eE3.ttf');
 }
