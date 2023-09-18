@@ -1,8 +1,10 @@
 /* Body styling */
 body {
-    background-image: url("images/paper2.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: linear-gradient(to right, rgba(255,255,255, 0.4) 0 100%), url("images/paper2.jpeg");
+    background-size: cover;
+    /*background-image: url("images/paper2.jpeg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100% 100%;*/
     /*background: #713e94;*/
     color: rgb(60,61,71);
     /*font-family: Helvetica, Arial;*/
